@@ -1,0 +1,11 @@
+program cetakString
+kamus
+	i, n : integer
+	word : string
+algoritma
+	input(n)
+	input(word)
+	for i <- 1 to n do
+		output(word)
+	endfor
+endprogram 

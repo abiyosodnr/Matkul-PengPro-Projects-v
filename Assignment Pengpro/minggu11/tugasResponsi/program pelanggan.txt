@@ -1,0 +1,29 @@
+program pelanggan
+kamus
+	mh, skr : boolean
+	lm : integer
+	total : real
+algoritma
+	input(mh, skr, lm, total)
+	if mh == true then
+		if lm > 12 then
+			output("Pelanggan Prioritas I")
+			if skr == true then
+				total <- total * 0.65
+			else 
+				total <- total * 0.7
+			endif
+		else if lm >= 8 and lm <= 12 then
+			output("Pelanggan Prioritas II")
+			if skr == true then
+				total <- total * 0.8
+			else 
+				total <- total * 0.85
+			endif
+		else 
+			total <- total * 0.9
+		endif
+		
+	endif
+	output(total)
+endprogram

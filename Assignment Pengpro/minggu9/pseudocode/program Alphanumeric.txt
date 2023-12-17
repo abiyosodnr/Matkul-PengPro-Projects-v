@@ -1,0 +1,9 @@
+program Alphanumeric
+kamus
+	n : char
+	hasil : boolean
+algoritma
+	input(n)
+	hasil <- (n >= 'a' and n <= 'z') or (n >= '0' n <= '9') or (n >= 'A' and n <= 'Z')
+	output(hasil)
+endprogram

@@ -1,0 +1,13 @@
+program kabisat
+kamus 
+	th : integer
+	hasil : boolean
+algoritma
+	input(th)
+	if th % 400 == 0 or (th % 4 == 0 and th % 100 != 0) then
+		hasil <- true
+	else
+		hasil <- false
+	endif
+	output(hasil)
+endprogram

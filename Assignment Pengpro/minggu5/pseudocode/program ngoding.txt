@@ -1,0 +1,13 @@
+program ngoding
+kamus
+	i, hari, jam, jumlah : integer
+	rata2 : real
+algoritma
+	input(hari)
+	for <- 1 to hari do
+		input(jam)
+		jumlah <- jumlah + jam
+	endfor
+	rata2 <- jumlah div hari
+	output(rata2)
+endprogram

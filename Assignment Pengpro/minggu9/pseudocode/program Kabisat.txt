@@ -1,0 +1,9 @@
+program Kabisat
+kamus
+	n : integer
+	hasil : boolean
+algoritma
+	input(n)
+	hasil <- (n mod 4 == 0) or ((n mod 400 == 0) and (n mod 100 != 0))
+	output(hasil)
+endprogram

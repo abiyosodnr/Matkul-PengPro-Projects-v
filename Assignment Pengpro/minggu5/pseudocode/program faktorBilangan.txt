@@ -1,0 +1,11 @@
+program faktorBilangan
+kamus
+	i, n : integer
+	s : boolean
+algoritma
+	input(n)
+	for i <- 1 to n do
+		s <- n mod i == 0
+		output(i, s)
+	endfor
+endprogram

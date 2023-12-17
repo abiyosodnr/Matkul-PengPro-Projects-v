@@ -1,0 +1,9 @@
+program Segitiga
+kamus
+	a, b, c : integer
+	hasil : boolean
+algoritma
+	input(a, b, c)
+	hasil <- (a + b > c) and (b + c > a) and (a + c > b)
+	output(hasil)
+endprogram

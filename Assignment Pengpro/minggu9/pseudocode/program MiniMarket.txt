@@ -1,0 +1,13 @@
+program MiniMarket
+kamus
+	n : integer
+	sedia, kartu, diskon, cashback : boolean
+algoritma
+	input(n, sedia)
+	kartu <- sedia == true
+	diskon <- n >= 100000
+	cashback <- (n >= 200000) and (kartu == true)
+	output("Kartu?", kartu)
+	output("Diskon?", diskon)
+	output("Cashback?", cashback)
+endprogram

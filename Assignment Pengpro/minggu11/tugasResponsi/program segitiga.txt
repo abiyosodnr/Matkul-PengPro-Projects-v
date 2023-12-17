@@ -1,0 +1,17 @@
+program segitiga
+kamus
+	a, b, c, d : integer
+algoritma
+	input(a, b, c, d)
+	if a + b > c and a + c > b and b + c > a then
+		if (a == b and a != c) or (a == c and a != b) || (b == c and a != b) then
+			output("segitiga sama kaki")
+		else if a == b and b == c and a == c then
+			output("segitiga sama sisi")
+		else if a*a + b*b == c*c or b*b + c*c == a*a or a*a + c*c == b*b then
+			output("segitiga siku siku")
+		else 
+			output("segitiga bebas")
+		endif
+	endif
+endprogram

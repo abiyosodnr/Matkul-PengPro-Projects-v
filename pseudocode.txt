@@ -1,0 +1,23 @@
+program MatematikaB
+kamus
+    x : integer
+    f : real
+algoritma
+    input(x)
+    f <- (x*x*x + 3x)/(x*x*x*x-3x*x+4)
+    output(f)
+endprogram
+
+program TigaDigit
+kamus
+    x : integer
+    d1, d2, d3 : integer
+algoritma
+    input(x)
+    d1 <- x div 100
+    x <- x mod 100
+    d2 <- div 10
+    x <- mod 10
+    d3 <- x mod 1
+    output(d1, d2, d3)
+endprogram
